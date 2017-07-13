@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>My Music</title>
+		<link rel="stylesheet" href="css/style.css" />
+		
+	</head>
+
+	<body>
+		<!--主界面-->
+		<div class="mainPage">
+			<!--顶部栏-->
+			<div class="header">
+				<h1 class="logo"></h1>
+				<div class="topNav fr">
+					<ul>
+						<li>
+							<a target="_blank" href="">注册</a>
+						</li>
+						<li>
+							<a href="" class="kuLogin">登录</a>
+					</ul>
+				</div>
+			</div>
+			<!--导航栏-->
+			<div class="navWrap">
+				<div class="nav">
+					<ul class="homeNav">
+						<li>
+							<a class="normal active" href="">首页</a>
+						</li>
+						<li>
+							<a class="normal" href="">榜单</a>
+						</li>
+						<li>
+							<a class="normal" id="productCenter" href="">下载客户端</a>
+						</li>
+						<li>
+							<a class="normal" id="productCenter" href="">歌单</a>
+						</li>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		
+			<!--内容区域-->
+			<div  class="container">
+				<div class="side" id="side">
+					<ul>
+						<li class="active"><div>
+							<a href="#" >热歌榜</a>
+						</div></li>
+						<li><div>
+							<a href="#">新歌榜</a>
+						</div></li>
+					</ul>
+				</div>
+				<div class="list">
+					<ul>
+						<li class="top3"><span class="index">
+							1
+						</span>
+						<span class="item">
+							无敌
+						</span></li>
+						<li class="top3"><span class="index">
+							2
+						</span>
+						<span class="item">
+							sakura
+						</span></li>
+						<li class="top3"><span class="index">
+							1
+						</span>
+						<span class="item">
+							无敌
+						</span></li>
+						<li class="bottom7"><span class="index">
+							1
+						</span>
+						<span class="item">
+							无敌
+						</span></li>
+						<li class="bottom7"><span class="index">
+							1
+						</span>
+						<span class="item">
+							无敌
+						</span></li><li class="bottom7"><span class="index">
+							1
+						</span>
+						<span class="item">
+							无敌
+						</span></li><li class="bottom7"><span class="index">
+							1
+						</span>
+						<span class="item">
+							无敌
+						</span></li><li class="bottom7"><span class="index">
+							1
+						</span>
+						<span class="item">
+							无敌
+						</span></li><li class="bottom7"><span class="index">
+							1
+						</span>
+						<span class="item">
+							无敌
+						</span></li><li class="bottom7"><span class="index">
+							1
+						</span>
+						<span class="item">
+							无敌
+						</span></li>
+					</ul>
+				</div>
+			</div>
+</div>
+		<script type="text/javascript">
+//		window.onload=function(){
+//			var xx=function(){
+				
+			var a=document.getElementById('side');
+			
+			var b=a.getElementsByTagName('li');
+			for(var i = 0; i < b.length; i++) {
+            b[i].onclick= function() {
+            	for(var i = 0; i < b.length; i++) 
+                    {b[i].className = "";}
+                   this.className="active";
+                }
+            
+			}
+//			}
+//		}
+		</script>	
+	</body>
+
+</html>

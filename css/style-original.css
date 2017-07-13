@@ -1,0 +1,359 @@
+html {
+	-webkit-text-size-adjust: none;
+	-webkit-user-select: none
+}
+
+a,blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,img,input,li,ol,p,pre,td,textarea,th,ul {
+	margin: 0;
+	padding: 0
+}
+
+a,h1,h2,h3,h4,h5,h6,p {
+	font-size: 100%
+}
+
+li,ol,ul {
+	list-style: none
+}
+
+table {
+	border-collapse: collapse;
+	border-style: none
+}
+
+button {
+	border: 0 none;
+	padding: 0;
+	cursor: pointer
+}
+
+iframe {
+	display: block
+}
+
+img,input,select {
+	vertical-align: middle
+}
+
+img {
+	border: 0
+}
+
+input,select {
+	outline: none
+}
+
+a,img,textarea {
+	outline: none
+}
+
+textarea {
+	resize: vertical
+}
+
+a {
+	text-decoration: none
+}
+/*.HotRadio .itemContent:after,.HotSongList .itemContent:after,.albumList .itemContent:after,.clearFix:after,.clear_fix:after,.clearfix:after,.friendLink .itemContent:after,.listItem a:after,.navWrap .homeNav:after,.navWrap .subNav:after,.newSongList .pages:after,.newSongList .tabC a:after,.selectSongList .itemContent:after,.subContentM:after,.topNav ul:after {
+	display: block;
+	clear: both;
+	content: ".";
+	visibility: hidden;
+	height: 0;
+	font-size: 0
+}*/
+
+/*.HotRadio .itemContent,.HotSongList .itemContent,.albumList .itemContent,.clearFix,.clear_fix,.clearfix,.friendLink .itemContent,.listItem a,.navWrap .homeNav,.navWrap .subNav,.newSongList .pages,.newSongList .tabC a,.selectSongList .itemContent,.subContentM,.topNav ul {
+	zoom: 1
+}*/
+
+.HotRadio,.HotRadio .itemContent li,.HotSinger .cptMid,.HotSinger .cptSmall,.albumList .cptBigL,.albumList .cptMidL,.fl,.friendLink .itemContent a,.itemTitle .tabT,.itemTitle h3,.listItem .list,.listItem img,.navWrap .homeNav,.navWrap .homeNav li,.navWrap .subNav li,.newSongList,.newSongList .tabC .songName,.newSongList .tabC .songTips,.selectSongList,.selectSongList .cptBig,.selectSongList .cptMid {
+	float: left
+}
+
+/*.HotSinger,.HotSongList,.albumList,.fr,.itemTitle .playAll,.navWrap .subNav {
+	float: right
+}*/
+
+body,button,html {
+	font: 13px/1.5 \5FAE\8F6F\96C5\9ED1,simsun,sans-serif
+}
+.mainPage {
+	width: 100%;
+	min-width: 1000px;
+	margin: 0 auto;
+	position: relative
+}
+.content,.copyRight,.header,.nav {
+	width: 1000px;
+	margin: 0 auto
+}
+
+.content {
+	overflow: hidden;
+	padding-top: 300px;
+	padding-left: 300px;
+	font-size: 40px;
+}
+
+.header {
+	height: 78px;
+	position: relative
+}
+
+.logo,.topNav {
+	position: absolute
+}
+
+.logo {
+	left: 0;
+	display: inline-block;
+	width: 153px;
+	height: 37px;
+	text-indent: -999em;
+	background: url(../img/music.png) no-repeat left top;
+	top: 20px
+}
+
+.topNav {
+	top: 30px;
+	right: 0;
+}
+
+.topNav ul {
+	text-align: right
+}
+
+.topNav li {
+	display: inline-block;
+	zoom: 1;
+	margin-left: 30px
+}
+
+.topNav li a {
+	color: #777
+}
+
+.topNav li a:hover {
+	text-decoration: none;
+	color: #009af3
+}
+
+.topNav li .logout {
+	display: none
+}
+
+.topNav li .kuLogin {
+	margin-right: 10px
+}
+
+.navWrap {
+	position: relative;
+	z-index: 999;
+	width: 100%;
+	height: 55px;
+	background-color: #2c323b
+}
+
+.navWrap .nav {
+	width: 1000px;
+	position: relative;
+	z-index: 200
+}
+
+.navWrap .nav a {
+	font-size: 16px;
+	color: #ddd
+}
+
+.navWrap .homeNav {
+	display: inline-block
+}
+
+.navWrap .homeNav li {
+	display: inline-block;
+	height: 55px;
+	line-height: 55px
+}
+
+.navWrap .homeNav li a.normal {
+	display: block;
+	padding: 0 30px
+}
+
+.navWrap .homeNav li a.normal.active,.navWrap .homeNav li a.normal:hover {
+	background-color: #808080;
+	color: #fff
+}
+/*
+.navWrap .homeNav li.more:hover a {
+	color: #fff;
+	background-position: 70px -65px
+}
+
+.navWrap .homeNav li.more.hover a:hover,.navWrap .homeNav li.more:hover a:hover {
+	background: url(../images/arrowMoreu.png) no-repeat 72px 8px;
+	color: #fff;
+	background-color: #0c8ed9
+}
+
+.navWrap .homeNav li.more.hover a {
+	color: #fff;
+	background: url(../images/arrowMoreu.png) no-repeat 72px 8px
+}
+
+.navWrap .homeNav li.more a {
+	display: inline;
+	*height: 20px;
+	*line-height: 20px;
+	_margin-top: 18px;
+	margin-left: 5px;
+	padding: 0 30px;
+	background: url(../images/arrowMored.png) no-repeat no-repeat 72px 8px
+}
+
+.navWrap .homeNav li.more a.hover,.navWrap .homeNav li.more a:hover {
+	color: #fff;
+	background-color: #0c8ed9;
+	background: url(../images/arrowMoreu.png) no-repeat no-repeat 72px 8px
+}
+
+.navWrap .secondMenu {
+	position: absolute;
+	left: 308px;
+	top: 55px;
+	display: none;
+	width: 113px;
+	height: 146px;
+	background-color: #252a32;
+	z-index: 99
+}
+
+.navWrap .secondMenu li,.navWrap .secondMenu li a {
+	display: block;
+	padding: 0;
+	height: 36px;
+	line-height: 36px
+}
+
+.navWrap .secondMenu li {
+	float: none;
+	margin: 0;
+	width: 113px
+}
+
+.navWrap .secondMenu li a {
+	text-align: center;
+	font-size: 15px;
+	color: #bbb;
+	background: 0 0;
+	background-color: #252b34
+}
+
+.navWrap .secondMenu li a:hover {
+	color: #fff;
+	line-height: 34px;
+	border-top: 1px solid #383d44;
+	border-bottom: 1px solid #383d44;
+	background-color: #2d343d
+}
+
+.navWrap .secondMenu li a:last-child {
+	border-bottom: none
+}
+
+.navWrap .productMenu {
+	display: none;
+	position: absolute;
+	top: 55px;
+	left: 0;
+	right: 0;
+	z-index: 88;
+	background-color: #fff;
+	width: 100%;
+	height: 38px;
+	line-height: 438px
+}
+
+.navWrap .productMenu .productInnerMenu {
+	width: 970px;
+	height: 38px;
+	line-height: 38px;
+	margin: 0 auto;
+	padding-left: 30px
+}
+
+.navWrap .productMenu .productInnerMenu a {
+	height: 40px;
+	line-height: 40px;
+	margin-right: 40px;
+	color: #777
+}
+
+.navWrap .productMenu .productInnerMenu a.hover,.navWrap .productMenu .productInnerMenu a:hover,.navWrap .subNav li a.hover,.navWrap .subNav li a:hover {
+	color: #14a9ff
+}
+
+.navWrap .subNav {
+	position: relative;
+	margin-top: 16px;
+	height: 35px
+}
+
+.navWrap .subNav li {
+	margin-left: 30px;
+	height: 100%
+}
+
+.navWrap .subNav li .icon {
+	vertical-align: middle
+}
+
+.navWrap .subNav li a {
+	padding-left: 20px;
+	font-size: 13px;
+	color: #bbb;
+	background-image: url(../images/sprite.png)
+}
+
+.navWrap .subNav li a.icon-nav1 {
+	background-position: 0 -119px
+}
+
+.navWrap .subNav li a.icon-nav1 .hover,.navWrap .subNav li a.icon-nav1:hover {
+	background-position: 0 -101px
+}
+
+.navWrap .subNav li a.icon-nav2 {
+	background-position: 0 -155px
+}
+
+.navWrap .subNav li a.icon-nav2 .hover,.navWrap .subNav li a.icon-nav2:hover {
+	background-position: 0 -137px
+}
+
+.navWrap .subNav li a.icon-nav3 {
+	background-position: 0 -191px
+}
+
+.navWrap .subNav li a.icon-nav3 .hover,.navWrap .subNav li a.icon-nav3:hover {
+	background-position: 0 -173px
+}
+
+.navWrap .subNav li a.icon-nav4 {
+	background-position: 0 -226px;
+	_background-position: 0 -229px
+}
+
+.navWrap .subNav li a.icon-nav4 .hover,.navWrap .subNav li a.icon-nav4:hover {
+	background-position: 0 -208px;
+	_background-position: 0 -211px
+}
+
+.navWrap .subNav li a.icon-nav5 {
+	background-position: 0 -281px
+}
+
+.navWrap .subNav li a.icon-nav5 .hover,.navWrap .subNav li a.icon-nav5:hover {
+	background-position: 0 -245px
+}*/
